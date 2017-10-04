@@ -45,17 +45,18 @@ public class JavaFXMain extends Application {
         BorderPane pane = new BorderPane();
         BorderPane root = new BorderPane();
         TabInfoPane tabs = new TabInfoPane();
+        String img = "https://i.ytimg.com/vi/fOl6TUPTcO8/maxresdefault.jpg";
         
         pane.setCenter(root);
         pane.setBottom(tabs);
 
-        Image stars = new Image("http://i.imgur.com/PgYKaSd.jpg"); //URL for the background image
+        Image stars = new Image(img); //URL for the background image
         ImagePattern pattern = new ImagePattern(stars); //Sets up an image pattern that is based off of the stars.
         Scene scene = new Scene(pane, 1500, 1000);
 
         pane.setStyle(
                 "-fx-background-image: url("
-                + "'http://i.imgur.com/PgYKaSd.jpg'"
+                + "'https://i.ytimg.com/vi/fOl6TUPTcO8/maxresdefault.jpg'"
                 + "); "
                 + "-fx-background-size: stretch;"
         );

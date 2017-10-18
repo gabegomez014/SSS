@@ -1,6 +1,6 @@
 This a project started within my Computer Science 205 class at Bucknell University. 
 
-In order for it to properly run as an exectuable, I suggest following one of the two links I will put below if you do not already know how to create a jar file. 
+In order for it to properly run as an exectuable, I suggest following one of the two links I will put below if you do not already know how to create a jar file, or simply use the jar file I have provided.
 
 Building jar as specified by Java: https://docs.oracle.com/javase/tutorial/deployment/jar/build.html
 Building jar through NetBeans: https://netbeans.org/kb/articles/javase-deploy.html
